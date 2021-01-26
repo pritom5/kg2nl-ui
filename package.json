@@ -1,5 +1,5 @@
 {
-  "name": "kg2nl-frontend",
+  "name": "kg2nl-ui",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
