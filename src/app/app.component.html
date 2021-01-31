@@ -2,11 +2,11 @@
 
 <form [formGroup]="exampleForm" class="form">
   <div class="form-group">
-    <input class="form-control input" formControlName="input" placeholder="Enter Input" >
+    <input class="form-control input" formControlName="input" placeholder="Enter ontology url" >
     <button class="btn" (click)="formSubmit();" >Generate</button>
   </div>
 
   <div class="form-group">
-    <input [value]="output_data" class="form-control output" placeholder="Waiting..." disabled="true">
+    <input [value]="output_data" class="form-control output" placeholder="Natral language will appear here" disabled="true">
   </div>
 </form>
