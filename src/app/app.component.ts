@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, FormArray } from '@angular/forms';
+import { version } from '../../package.json';
 
 
 @Component({
@@ -11,7 +12,7 @@ import { FormControl, FormGroup, FormArray } from '@angular/forms';
 export class AppComponent {
   title       = 'app';
   output_data = ""
-  
+  ver  = version;
   exampleForm = new FormGroup ({
     input: new FormControl(),
   });
